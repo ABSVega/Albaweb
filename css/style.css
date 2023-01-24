@@ -199,7 +199,6 @@ header {
 /*About us*/
 .about__us_container {
     height: 100vh;
-    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
@@ -208,6 +207,7 @@ header {
 
 .about__us_texts {
     margin-left: 60px;
+    padding-right: 50px;
     text-align: justify;
 }
 
