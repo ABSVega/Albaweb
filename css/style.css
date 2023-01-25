@@ -145,7 +145,7 @@ header {
     height: 100vh;
     width: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*Contenedor de la página*/
@@ -159,7 +159,7 @@ header {
 /*Contenedor de la página principal*/
 .hero__container {
     height: 100vh;
-    max-width: 900px;
+    max-width: 1200px;
     display: grid;
     --padding-container: 0;
     grid-auto-rows: max-content;
@@ -194,6 +194,7 @@ header {
     font-size: 15px;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(105, 104, 104, 0.8);
+    z-index: 1;
 }
 
 /*About us*/
@@ -212,7 +213,7 @@ header {
 }
 
 .about__us_title {
-    font-size: 70px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
@@ -242,23 +243,21 @@ header {
 /*kits*/
 .alba__kits {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 150px;
     display: grid;
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     gap: 1em;
-    overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     background-color: #fbfbfe;
     background-image: radial-gradient(#aaa 0.9px, #fbfbfe 0.9px);
     background-size: 18px 18px;
-    overflow: hidden;
 }
 
-.home__title {
+.kits__title {
     color: var(--text-color);
     font-size: 2rem;
-    line-height: 3.5;
 }
 
 .about__kit {
@@ -272,4 +271,90 @@ header {
 
 .img__kits {
     width: 260px;
+}
+
+/*Alba Partners*/
+.alba__partners {
+   text-align: center;
+   padding-bottom: 50px;
+   padding-top: 50px;
+
+}
+
+.logo__partners {
+    width: 40px;
+}
+
+.about__partners {
+    padding-top: 80px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.partners_article {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*Alba Services*/
+
+.alba__services {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.first__title {
+    font-size: 4rem;
+}
+
+.first__subtitle {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.services__title {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.services__paragraph {
+    line-height: 1.7;
+}
+
+.about__services {
+    padding-top: 30px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.services__img {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    width: 170px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+/*Alba Gallery*/
+
+.alba__gallery {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
