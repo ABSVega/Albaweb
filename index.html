@@ -61,10 +61,9 @@
                         voluptatum molestias!
                     </p>
                 </div>
-
-                <figure class="about__us_picture">
+                <div class="about__us_picture">
                     <img src="img/ALBA_WEB_ELEMENTS-08.png" alt="about__us_img" class="about__us_img">
-                </figure>
+                </div>
             </div>
         </section>
 
@@ -117,7 +116,7 @@
 
         <section class="container alba__services">
 
-            <h1 class="first__title">Nuestro Portafolio</h1>
+            <h1 class="first__title">Nuestro <span class="color__dif">Portafolio</span></h1>
             <p class="first__subtitle">Servicios</p>
             <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="services__img" class="services__img_title">
 
@@ -165,7 +164,7 @@
         </section>
 
         <section class="container alba__gallery">
-            <h1 class="first__title">Productos & Proyectos</h1>
+            <h1 class="first__title">Productos & <span class="color__dif">Proyectos</span></h1>
             <p class="first__subtitle">Galería</p>
             <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="gallery__elemtent" class="gallery__img_title">
 
@@ -201,10 +200,57 @@
         </section>
 
         <section class="container alba__contact">
-            <h1 class="first__title">Contáctanos</h1>
-            <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="contact__element">
+            <div class="contact__texts">
+                <h1 class="first__title">Contáctanos</h1>
+                <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="contact__element" class="contact__element">
+
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam dolores enim magni
+                    doloribus temporibus tempore mollitia saepe culpa maiores!
+                </p>
+            </div>
+
+            <div class="contact__form">
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Nombre" required class="input__required">
+                    <input type="tel" id="phone" name="phone" placeholder="Teléfono" required class="input__required">
+                    <input type="email" id="email" name="email" placeholder="Correo electronico" required
+                        class="input__required">
+                    <textarea id="comments" name="comments" placeholder="Comentarios"
+                        class="input__required"></textarea>
+                    <input type="submit" value="Enviar" class="button">
+                </form>
+            </div>
         </section>
     </main>
+    <footer class="alba__footer">
+        <div class="footer__grid">
+            <div class="footer__links">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Aviso de privacidad</a>
+                <a href="#">Aliados y Marcas</a>
+                <a href="#">Preguntas Frecuentes</a>
+            </div>
+
+            <div class="footer__logos">
+                <figure class="footer__figure">
+                    <img src="img/ALBA_WEB_ELEMENTS-19.png" alt="footer__logo" class="footer__logo">
+                </figure>
+                <div class="footer__smedia">
+                    <a href="http://"><img src="img/facebook.svg" alt="footer__facebook" class="footer__facebook"></a>
+                    <a href="http://"><img src="img/youtube.svg" alt="footer__youtube" class="footer__youtube"></a>
+                    <a href="http://"><img src="img/linkedin.svg" alt="footer__linkedin" class="footer__linkedin"></a>
+                </div>
+                <div class="footer__copy">
+                    <p>Todos los derechos reservados: <span class="color__dif">Alba&copy;</span></p>
+                </div>
+            </div>
+
+            <div class="footer__instagram">
+                <p>Checa nuestro instagram</p>
+            </div>
+        </div>
+    </footer>
     <!--Este script tiene las particulas y esta en la carpeta de JS-->
     <script type="text/javascript" src="js/particles.min.js"></script>
     <!--Este script tiene la configuración de las particulas y esta en la carpeta de JS-->
