@@ -15,7 +15,7 @@ particlesJS(
             "type": "circle",
             "stroke": {
               "width": 0,
-              "color": "#9b9b9b"
+              "color": "#000000"
             },
             "polygon": {
               "nb_sides": 5
@@ -27,7 +27,7 @@ particlesJS(
             }
           },
           "opacity": {
-            "value": 0.5,
+            "value": 0.2,
             "random": false,
             "anim": {
               "enable": false,
@@ -50,7 +50,7 @@ particlesJS(
             "enable": true,
             "distance": 150,
             "color": "#000000",
-            "opacity": 0.4,
+            "opacity": 0.5,
             "width": 1
           },
           "move": {
