@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" rel="stylesheet">
 </head>
@@ -19,11 +20,11 @@
 
     <!--Esto es el menu inicial-->
     <header>
-        <a href="#" class="logo"><img src="img/ALBA_WEB_ELEMENTS-03.png" alt="Alba_logo"></a>
+        <a href="#"> <img src="img/ALBA_WEB_ELEMENTS-03.png" alt="logo" class="logo"></a>
 
-        <ul class="navbar">
-            <li><a href="#" class="active">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
+        <ul class="navbar" id="navbar">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Nosotros">Nosotros</a></li>
             <li><a href="#">Portafolio</a></li>
             <li><a href="#">Galería</a></li>
             <li><a href="#">Contacto</a></li>
@@ -54,11 +55,10 @@
                     <h4 class="about__us_subtitle">Domótica / Inmótica</h4>
                     <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="about__us_icon">
                     <p class="about__us_paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem at explicabo impedit
-                        provident totam alias atque magnam molestiae obcaecati veniam deleniti esse labore nulla optio
-                        repudiandae voluptatibus facere corrupti facilis, perspiciatis id molestias adipisci hic!
-                        Possimus id aliquid voluptatibus hic aspernatur in provident soluta, quidem facere, ullam,
-                        voluptatum molestias!
+                        Somos fieles creyentes que el que no tiene domotización y automatización en un espacio es porque
+                        no quiere sentirse libre y conetactado con su entorno.
+                        Ahora tenemos la tecnología para crear espacios inteligentes con precios accesibles. <br>Así
+                        nace "Alba Domótica", buscando traer la domotización a todos lados.
                     </p>
                 </div>
                 <div class="about__us_picture">
@@ -67,7 +67,7 @@
             </div>
         </section>
 
-        <section class="alba__kits">
+        <section class="alba__kits" id="">
             <article class="about__kit">
                 <img src="img/ALBA_WEB_ELEMENTS-09.png" alt="" class="img__kits">
                 <h3 class="kits__title">Alba Home</h3>
@@ -121,43 +121,37 @@
             <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="services__img" class="services__img_title">
 
             <div class="about__services">
-                <article class="about__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
+                <article class="content__services">
+                    <img src="img/ALBA_WEB_ELEMENTS-15.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Diseño de proyecto</h3>
                     <p class="services__paragraph">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, molestias illo quo dicta
-                        officia
-                        inventore aliquid sequi rerum ea.
+                        Analizamos tus espacios y sugerimos lo que puede ser ideal para tí.
                     </p>
                 </article>
 
-                <article class="about__services">
+                <article class="content__services">
                     <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Productos</h3>
                     <p class="services__paragraph">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, molestias illo quo dicta
-                        officia
-                        inventore aliquid sequi rerum ea.
+                        En Alba utilizamos productos de alta calidad y de acuerdo a tu presupuesto.
                     </p>
                 </article>
 
-                <article class="about__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
+                <article class="content__services">
+                    <img src="img/ALBA_WEB_ELEMENTS-17.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Implementación</h3>
                     <p class="services__paragraph">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, molestias illo quo dicta
-                        officia
-                        inventore aliquid sequi rerum ea.
+                        Implementamos soluciones a la medida, siempre pensando en la comodidad y en las
+                        futuras actualizaciones que prodría desear.
                     </p>
                 </article>
 
-                <article class="about__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
+                <article class="content__services">
+                    <img src="img/ALBA_WEB_ELEMENTS-18.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Soporte</h3>
                     <p class="services__paragraph">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, molestias illo quo dicta
-                        officia
-                        inventore aliquid sequi rerum ea.
+                        Contaras con nosotros en todo momento para darle soporte y seguimiento a tu instalación.
+                        Nuestro objetivo es que te conectes con el ambiente que creamos para ti.
                     </p>
                 </article>
             </div>
@@ -204,7 +198,7 @@
                 <h1 class="first__title">Contáctanos</h1>
                 <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="contact__element" class="contact__element">
 
-                <p class="">
+                <p class="contact__paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam dolores enim magni
                     doloribus temporibus tempore mollitia saepe culpa maiores!
                 </p>
