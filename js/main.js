@@ -36,3 +36,4 @@ window.addEventListener('scroll', () => {
         logoImage.src = defaultLogo;
     }
 });
+ // cambiar a la siguiente imagen cada 3 segundos

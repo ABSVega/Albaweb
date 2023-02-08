@@ -7,11 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alba web</title>
     <link rel="shortcut icon" href="img/ALBA_WEB_ELEMENTS-01.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" rel="stylesheet">
 </head>
@@ -19,27 +15,10 @@
 <body>
 
     <!--Esto es el menu inicial-->
-    <header>
-        <a href="#"> <img src="img/ALBA_WEB_ELEMENTS-03.png" alt="logo" class="logo"></a>
-
-        <ul class="navbar" id="navbar">
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#Nosotros">Nosotros</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Galería</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-        <div class="main">
-            <li><a href="#">52+ (55) 51 30 46 00</a></li>
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
-    </header>
-
     <!--Este div es para que puedas ver las particulas en la página-->
-    <div id="particles-js"></div>
-
+    <section id="particles-js"></section>
     <!--Esto es el titulo principal de la página-->
-    <section class="hero__container container">
+    <section class="hero__container">
         <p class="hero__paragraph">Con Alba</p>
         <h1 class="hero__title">Ilumina tu vida</h1>
         <p class="hero__paragraph">Automatizamos tus espacios</p>
@@ -52,8 +31,8 @@
             <div class="about__us_container">
                 <div class="about__us_texts">
                     <h1 class="about__us_title">Nosotros</h1>
-                    <h4 class="about__us_subtitle">Domótica / Inmótica</h4>
-                    <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="about__us_icon">
+                    <h4 class="about__us_subtitle">Domótica/Inmótica</h4>
+                    <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="element" class="element">
                     <p class="about__us_paragraph">
                         Somos fieles creyentes que el que no tiene domotización y automatización en un espacio es porque
                         no quiere sentirse libre y conetactado con su entorno.
@@ -67,7 +46,7 @@
             </div>
         </section>
 
-        <section class="alba__kits" id="">
+        <section class="alba__kits">
             <article class="about__kit">
                 <img src="img/ALBA_WEB_ELEMENTS-09.png" alt="" class="img__kits">
                 <h3 class="kits__title">Alba Home</h3>
@@ -89,10 +68,10 @@
             </article>
         </section>
 
-        <section class="container alba__partners">
+        <section class="alba__partners">
 
-            <h1 class="first__title">Aliados Comerciales</h1>
-            <p class="first__subtitle">Lorem ipsum dolor sit amet.</p>
+            <h1 class="first__title">Aliados <span class="color__dif">Comerciales</span></h1>
+            <p class="first__subtitle">Muchas gracias por el apoyo</p>
             <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="partners__img">
 
             <div class="about__partners">
@@ -114,7 +93,7 @@
             </div>
         </section>
 
-        <section class="container alba__services">
+        <section class="alba__services">
 
             <h1 class="first__title">Nuestro <span class="color__dif">Portafolio</span></h1>
             <p class="first__subtitle">Servicios</p>
@@ -157,50 +136,44 @@
             </div>
         </section>
 
-        <section class="container alba__gallery">
-            <h1 class="first__title">Productos & <span class="color__dif">Proyectos</span></h1>
-            <p class="first__subtitle">Galería</p>
-            <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="gallery__elemtent" class="gallery__img_title">
+        <div class="container__slider">
+            <div class="container__img">
+                <div class="cards">
+                    <div class="slide img-a">
+                        <img src="img/ALBA_WEB_ELEMENTS-23.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-24.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-25.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-26.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-27.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-28.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-29.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/ALBA_WEB_ELEMENTS-30.png">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <section class="photos">
-                <article class="gallery">
-                    <div class="img__a">
-                        <img src="img/ALBA_WEB_ELEMENTS-23.png" alt="" srcset="">
-                    </div>
-                    <div class="img__b">
-                        <img src="img/ALBA_WEB_ELEMENTS-24.png" alt="" srcset="">
-                    </div>
-                    <div class="img__c">
-                        <img src="img/ALBA_WEB_ELEMENTS-25.png" alt="" srcset="">
-                    </div>
-                    <div class="img__d">
-                        <img src="img/ALBA_WEB_ELEMENTS-26.png" alt="" srcset="">
-                    </div>
-                    <div class="img__e">
-                        <img src="img/ALBA_WEB_ELEMENTS-27.png" alt="" srcset="">
-                    </div>
-                    <div class="img__f">
-                        <img src="img/ALBA_WEB_ELEMENTS-28.png" alt="" srcset="">
-                    </div>
-                    <div class="img__g">
-                        <img src="img/ALBA_WEB_ELEMENTS-29.png" alt="" srcset="">
-                    </div>
-                    <div class="img__h">
-                        <img src="img/ALBA_WEB_ELEMENTS-30.png" alt="" srcset="">
-                    </div>
-                </article>
-            </section>
-
-        </section>
-
-        <section class="container alba__contact">
+        <section class="alba__contact">
             <div class="contact__texts">
                 <h1 class="first__title">Contáctanos</h1>
-                <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="contact__element" class="contact__element">
-
+                <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="" class="contact__element">
                 <p class="contact__paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam dolores enim magni
-                    doloribus temporibus tempore mollitia saepe culpa maiores!
+                    Para cualquier duda o información adicional no dudes en contactarnos, recuerda colocar la
+                    información correctamente, nuestra respuesta sera casi inmediata.
                 </p>
             </div>
 
@@ -219,30 +192,24 @@
     </main>
     <footer class="alba__footer">
         <div class="footer__grid">
-            <div class="footer__links">
-                <a href="#">Términos y condiciones</a>
-                <a href="#">Aviso de privacidad</a>
-                <a href="#">Aliados y Marcas</a>
-                <a href="#">Preguntas Frecuentes</a>
+            <div class="terminos">
+                <ul class="copy">
+                    <li><a href="http://">Términos y condiciones</a></li>
+                    <li><a href="http://">Aviso de privacidad</a></li>
+                    <li><a href="http://">Aliados y marcas</a></li>
+                    <li><a href="http://">Preguntas frecuentes</a></li>
+                </ul>
             </div>
-
-            <div class="footer__logos">
-                <figure class="footer__figure">
-                    <img src="img/ALBA_WEB_ELEMENTS-19.png" alt="footer__logo" class="footer__logo">
-                </figure>
-                <div class="footer__smedia">
-                    <a href="http://"><img src="img/facebook.svg" alt="footer__facebook" class="footer__facebook"></a>
-                    <a href="http://"><img src="img/youtube.svg" alt="footer__youtube" class="footer__youtube"></a>
-                    <a href="http://"><img src="img/linkedin.svg" alt="footer__linkedin" class="footer__linkedin"></a>
-                </div>
-                <div class="footer__copy">
-                    <p>Todos los derechos reservados: <span class="color__dif">Alba&copy;</span></p>
-                </div>
+            <div class="media">
+                <img src="img/ALBA_WEB_ELEMENTS-19.png" alt="" srcset="" class="p__logo">
+                <ul class="logos__media">
+                    <li><a href="http://"><img src="img/facebook.svg" alt="" class="s__logo"></a></li>
+                    <li><a href="http://"><img src="img/youtube.svg" alt="" class="s__logo"></a></li>
+                    <li><a href="http://"><img src="img/linkedin.svg" alt="" class="s__logo"></a></li>
+                </ul>
+                <p class="copyright">Todos los derechos: <span class="color__dif">&copy;Alba</span></p>
             </div>
-
-            <div class="footer__instagram">
-                <p>Checa nuestro instagram</p>
-            </div>
+            <div class="instagram"></div>
         </div>
     </footer>
     <!--Este script tiene las particulas y esta en la carpeta de JS-->
