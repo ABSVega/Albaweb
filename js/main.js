@@ -13,15 +13,17 @@ window.onscroll = function () {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         //Si se cumple la condicion se aplicara el estilo de la clase navbar-scrolled al header
         document.querySelector("header").classList.add("navbar-scrolled");
+        document.querySelector(".navbar").classList.add("navbar-color");
         //Si no se cumple la condicion no aplicara los estilos
     } else {
         document.querySelector("header").classList.remove("navbar-scrolled");
+        document.querySelector(".navbar").classList.remove("navbar-color");
     }
 };
 
 
 // Toma la imagen de la clase logo
-const logoImage = document.querySelector('.logo');
+const logoImage = document.querySelector('.alba_logo');
 // Define la ruta de la imagen principal y a la secundaria
 const defaultLogo = '/img/ALBA_WEB_ELEMENTS-03.png';
 const scrolledLogo = '/img/ALBA_WEB_ELEMENTS-02.png';
@@ -36,4 +38,3 @@ window.addEventListener('scroll', () => {
         logoImage.src = defaultLogo;
     }
 });
- // cambiar a la siguiente imagen cada 3 segundos
