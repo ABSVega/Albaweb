@@ -38,3 +38,41 @@ window.addEventListener('scroll', () => {
         logoImage.src = defaultLogo;
     }
 });
+
+
+const modalAdd1 = document.querySelector('#modalHome');
+const modalAdd2 = document.querySelector('#modalWork');
+const modalAdd3 = document.querySelector('#modalPlay');
+const modalAdd4 = document.querySelector('#modalExperiencie');
+
+const openModal = (modal) => {
+    modal.style.display = 'flex';
+}
+
+const closeModal = (modal) => {
+    modal.style.display = 'none';
+}
+
+modalAdd1.onclick = (event) => {
+    if(event.target === modalAdd1){
+        closeModal(modalAdd1);
+    }
+};
+
+modalAdd2.onclick = (event) => {
+    if(event.target === modalAdd2){
+        closeModal(modalAdd2);
+    }
+};
+
+modalAdd3.onclick = (event) => {
+    if(event.target === modalAdd3){
+        closeModal(modalAdd3);
+    }
+};
+
+modalAdd4.onclick = (event) => {
+    if(event.target === modalAdd4){
+        closeModal(modalAdd4);
+    }
+};

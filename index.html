@@ -52,10 +52,11 @@
                     <h4 class="about__us_subtitle">Domótica/Inmótica</h4>
                     <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="element" class="element">
                     <p class="about__us_paragraph">
-                        Somos fieles creyentes que el que no tiene domotización y automatización en un espacio es porque
-                        no quiere sentirse libre y conetactado con su entorno.
-                        Ahora tenemos la tecnología para crear espacios inteligentes con precios accesibles. <br>Así
-                        nace "Alba Domótica", buscando traer la domotización a todos lados.
+                        Creemos firmemente en que la domótica y la automatización son la clave para sentirse libre y
+                        conectado con el entorno. Gracias a la tecnología actual, es posible crear espacios inteligentes
+                        a precios asequibles para todos. Es por eso que hemos fundado "Alba Domótica", con el objetivo
+                        de hacer que la domótica sea accesible a todos. ¡Permítenos ayudarte a transformar tu hogar o
+                        espacio de trabajo en un ambiente inteligente y eficiente!
                     </p>
                 </div>
                 <div class="about__us_picture">
@@ -66,23 +67,85 @@
 
         <section class="alba__kits">
             <article class="about__kit">
-                <img src="img/ALBA_WEB_ELEMENTS-09.png" alt="" class="img__kits">
-                <h3 class="kits__title">Alba Home</h3>
+                <img src="img/ALBA_WEB_ELEMENTS-09.png" alt="" class="img__kits" onclick="openModal(modalAdd1)">
+                <h3 class="kits__title">Alba <span class="color__dif">Home</span></h3>
+                <div class="modal" id="modalHome">
+                    <div class="modal-container">
+                        <div class="close-modal" onclick="closeModal(modalAdd1)">X</div>
+                        <h1 class="modal-title">¡Transformamos tu hogar en un <span class="color__dif">oasis de comodidad con la automatización inteligente!</span>.</h1>
+                        <p class="hidden-text">
+                            Transformamos tu hogar en un espacio inteligente y automatizado para brindarte la máxima
+                            comodidad. Desde la iluminación hasta la creación de rutinas, queremos que tu hogar se
+                            adapte a
+                            tu estilo de vida y te permita tener un comienzo perfecto todas las mañanas. ¡Déjanos
+                            ayudarte a
+                            crear un hogar a medida para ti!
+                        </p>
+                    </div>
+                </div>
             </article>
 
             <article class="about__kit">
-                <img src="img/ALBA_WEB_ELEMENTS-10.png" alt="" class="img__kits">
-                <h3 class="kits__title">Alba Work</h3>
+                <img src="img/ALBA_WEB_ELEMENTS-10.png" alt="" class="img__kits" onclick="openModal(modalAdd2)">
+                <h3 class="kits__title">Alba <span class="color_work">Work</span></h3>
+                <div class="modal" id="modalWork">
+                    <div class="modal-container">
+                        <div class="close-modal" onclick="closeModal(modalAdd2)">X</div>
+                        <h1 class="modal-title">¡Optimiza tu productividad y <span class="color_work">mejora tu ambiente de trabajo con nuestra
+                            tecnología!</span> .</h1>
+                        <p class="hidden-text">
+                            Transformamos tu oficina en un espacio inteligente y eficiente que te ayudará a
+                            aprovechar al
+                            máximo tu tiempo. Con simples comandos de voz, podrás controlar todas las funciones de
+                            tu
+                            oficina y lograr un flujo de trabajo sin interrupciones. ¡Deja que te ayudemos a crear
+                            un
+                            ambiente de trabajo más productivo y acogedor!
+                        </p>
+                    </div>
+                </div>
             </article>
 
             <article class="about__kit">
-                <img src="img/ALBA_WEB_ELEMENTS-11.png" alt="" class="img__kits">
-                <h3 class="kits__title">Alba Play</h3>
+                <img src="img/ALBA_WEB_ELEMENTS-11.png" alt="" class="img__kits" onclick="openModal(modalAdd3)">
+                <h3 class="kits__title">Alba <span class="color_play">Play</span></h3>
+                <div class="modal" id="modalPlay">
+                    <div class="modal-container">
+                        <div class="close-modal" onclick="closeModal(modalAdd3)">X</div>
+                        <h1 class="modal-title">¡Conviértete en el rey de tus juegos con nuestro <span class="color_play">sistema de
+                            automatización y tecnología inteligente!</span>.</h1>
+                        <p class="hidden-text">
+                            Transformamos tu área gaming en el lugar perfecto para tus sesiones de juegos. Con la
+                            ayuda
+                            de la automatización, luces y otros dispositivos inteligentes, crearemos un ambiente
+                            óptimo para
+                            tus partidas y te permitirá disfrutar de tardes inolvidables. ¡Déjanos ayudarte a crear
+                            ese
+                            espacio gaming que siempre has querido!
+                        </p>
+                    </div>
+                </div>
             </article>
 
             <article class="about__kit">
-                <img src="img/ALBA_WEB_ELEMENTS-12.png" alt="" class="img__kits">
-                <h3 class="kits__title">Alba Experiencie</h3>
+                <img src="img/ALBA_WEB_ELEMENTS-12.png" alt="" class="img__kits" onclick="openModal(modalAdd4)">
+                <h3 class="kits__title">Alba <span class="color_experiencie">Experiencie</span></h3>
+                <div class="modal" id="modalExperiencie">
+                    <div class="modal-container">
+                        <div class="close-modal" onclick="closeModal(modalAdd4)">X</div>
+                        <h1 class="modal-title">¡Transformamos tus sueños en realidad con <span class="color_experiencie">espacios inteligentes de
+                            vanguardia!</span>.</h1>
+                        <p class="hidden-text">
+                            Nos esforzamos por brindarte experiencias increíbles a través de la creación de espacios
+                            inteligentes. Con nuestras herramientas avanzadas, no hay límites a los que podemos
+                            llegar
+                            juntos.
+                            ¡Deja que te ayudemos a materializar cualquier idea que tengas en mente para crear el
+                            espacio
+                            perfecto para ti!
+                        </p>
+                    </div>
+                </div>
             </article>
         </section>
 
@@ -122,7 +185,8 @@
                     <img src="img/ALBA_WEB_ELEMENTS-15.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Diseño de proyecto</h3>
                     <p class="services__paragraph">
-                        Analizamos tus espacios y sugerimos lo que puede ser ideal para tí.
+                        Nos encargamos de analizar tus espacios y ofrecerte sugerencias personalizadas para optimizarlos
+                        de acuerdo a tus necesidades y gustos ideales.
                     </p>
                 </article>
 
@@ -130,7 +194,8 @@
                     <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Productos</h3>
                     <p class="services__paragraph">
-                        En Alba utilizamos productos de alta calidad y de acuerdo a tu presupuesto.
+                        Nos aseguramos de utilizar siempre productos de la más alta calidad, adaptándonos a tu
+                        presupuesto para brindarte un resultado excepcional.
                     </p>
                 </article>
 
@@ -138,8 +203,8 @@
                     <img src="img/ALBA_WEB_ELEMENTS-17.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Implementación</h3>
                     <p class="services__paragraph">
-                        Implementamos soluciones a la medida, siempre pensando en la comodidad y en las
-                        futuras actualizaciones que prodría desear.
+                        Implementamos soluciones a la medida de tus necesidades, siempre teniendo en cuenta tu
+                        comodidad y previsión para futuras actualizaciones que puedas requerir.
                     </p>
                 </article>
 
@@ -147,13 +212,15 @@
                     <img src="img/ALBA_WEB_ELEMENTS-18.png" alt="services__img" class="services__img">
                     <h3 class="services__title">Soporte</h3>
                     <p class="services__paragraph">
-                        Contaras con nosotros en todo momento para darle soporte y seguimiento a tu instalación.
-                        Nuestro objetivo es que te conectes con el ambiente que creamos para ti.
+                        Estaremos a tu disposición en todo momento para brindarte soporte y hacer un
+                        seguimiento constante a tu instalación. Nuestro objetivo es ayudarte a conectarte con el
+                        ambiente que hemos creado especialmente para ti.
                     </p>
                 </article>
             </div>
         </section>
 
+        <!--https://www.youtube.com/watch?v=wK86LvGxnJc&ab_channel=divcode-->
         <div class="container__slider">
             <div class="container__img">
                 <div class="text__gallery">
@@ -195,8 +262,9 @@
                 <h1 class="first__title">Contáctanos</h1>
                 <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="" class="contact__element">
                 <p class="contact__paragraph">
-                    Para cualquier duda o información adicional no dudes en contactarnos, recuerda colocar la
-                    información correctamente, nuestra respuesta sera casi inmediata.
+                    Para cualquier duda o necesidad de información adicional, por favor no dudes en ponerte en contacto
+                    con nosotros. Asegúrate de proporcionar la información correcta para que podamos brindarte una
+                    respuesta rápida y efectiva.
                 </p>
             </div>
 
