@@ -110,3 +110,14 @@ let nextAction = (leftPosition, trackWidth, listWidth, carruselWidth, track) => 
         track.style.left = `${-1 * (leftPosition + carruselWidth)}px`;
     }
 }
+
+
+'use strict';
+
+const galery = document.querySelector('.insta-photos');
+const feed = document.querySelector('.contenedor-instagram');
+const next = document.querySelector('#next');
+const prev = document.querySelector('#prev');
+
+const token = '';
+const url = '';
