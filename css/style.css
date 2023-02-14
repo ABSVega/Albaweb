@@ -190,6 +190,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*Contenedor de la página principal*/
 .hero__container {
     background-image: url(/img/ALBA_WEB_ELEMENTS-04.png);
+    object-fit: cover;
     height: 100vh;
     display: grid;
     grid-auto-rows: max-content;
