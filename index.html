@@ -20,11 +20,11 @@
         <a href="http://" class="logo"><img src="img/ALBA_WEB_ELEMENTS-03.png" alt="" class="alba_logo"></a>
 
         <ul class="navbar">
-            <li><a href="#" class="active">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Galería</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#Inicio" class="active">Inicio</a></li>
+            <li><a href="#Nosotros">Nosotros</a></li>
+            <li><a href="#Portafolio">Portafolio</a></li>
+            <li><a href="#proyectos">Galería</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
         </ul>
 
         <div class="main">
@@ -37,19 +37,19 @@
     <!--Este div es para que puedas ver las particulas en la página-->
     <section id="particles-js"></section>
     <!--Esto es el titulo principal de la página-->
-    <section class="hero__container">
-        <br>
-        <br>
-        <p class="hero__paragraph">CON ALBA</p>
-        <h1 class="hero__title">domotiza tu vida</h1>
-        <p class="hero__paragraph">AUTOMATIZAMOS TUS ESPACIOS</p>
-        <a href="#" class="btn__more">Descubre más...</a>
+    <section class="hero__home" id="Inicio">
+        <div class="hero__container hero__home">
+            <p class="hero__paragraph">CON ALBA</p>
+            <h1 class="hero__title">domotiza tu vida</h1>
+            <p class="hero__paragraph">AUTOMATIZAMOS TUS ESPACIOS</p>
+            <a href="#" class="btn__more">Descubre más...</a>
+        </div>
     </section>
 
     <!--Este es el apartado de nosotros-->
     <main>
-        <section>
-            <div class="about__us_container">
+        <section class="about__us_container" id="Nosotros">
+            <div class="alba__us about__us_container">
                 <div class="about__us_texts">
                     <h1 class="about__us_title">Nosotros</h1>
                     <h4 class="about__us_subtitle">Domótica/Inmótica</h4>
@@ -69,13 +69,14 @@
                         casi cualquier persona.
                     </p>
                 </div>
+
                 <div class="about__us_picture">
                     <img src="img/ALBA_WEB_ELEMENTS-08.png" alt="about__us_img" class="about__us_img">
                 </div>
             </div>
         </section>
 
-        <section class="alba__kits">
+        <section class="alba__kits" id="Kits">
             <article class="about__kit">
                 <img src="img/ALBA_WEB_ELEMENTS-09.png" alt="" class="img__kits" onclick="openModal(modalAdd1)">
                 <h3 class="kits__title">alba</h3>
@@ -162,11 +163,11 @@
 
         <section class="alba__partners">
 
-            <h1 class="first__title">Familia <span class="color__dif">Alba</span></h1>
-            <p class="first__subtitle">Aliados y proveedores</p>
-            <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="partners__img">
-
-
+            <div class="partners__text">
+                <h1 class="first__title">Familia <span class="color__dif">Alba</span></h1>
+                <p class="first__subtitle">Aliados y proveedores</p>
+                <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="partners__img">
+            </div>
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
@@ -202,105 +203,106 @@
                 </div>
             </div>
         </section>
-
-        <section class="alba__services">
-
-            <h1 class="first__title">Nuestro <span class="color__dif">Portafolio</span></h1>
-            <p class="first__subtitle">Servicios</p>
-            <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="services__img" class="services__img_title">
-
-            <div class="about__services">
-                <article class="content__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-15.png" alt="services__img" class="services__img">
-                    <h3 class="services__title">Diseño de proyecto</h3>
-                    <div class="services-paragraph-content">
-                        <p class="services__paragraph">
-                            Despues de análizar tus espacios
-                            desarrollamos una propuesta a la medida.
-                        </p>
-                    </div>
-                </article>
-                <article class="content__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
-                    <h3 class="services__title">Productos</h3>
-                    <div class="services-paragraph-content">
-                        <p class="services__paragraph">
-                            Utilizamos productos
-                            de alta calidad y de
-                            acuerdo a tu presupuesto.
-                        </p>
-                    </div>
-                </article>
-                <article class="content__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-17.png" alt="services__img" class="services__img">
-                    <h3 class="services__title">Implementación</h3>
-                    <div class="services-paragraph-content">
-                        <p class="services__paragraph">
-                            Llevamos a cabo
-                            la instalación de
-                            la solución, con
-                            una visión a largo
-                            plazo.
-                        </p>
-                    </div>
-                </article>
-                <article class="content__services">
-                    <img src="img/ALBA_WEB_ELEMENTS-18.png" alt="services__img" class="services__img">
-                    <h3 class="services__title">Soporte</h3>
-                    <div class="services-paragraph-content">
-                        <p class="services__paragraph">
-                            Siempre contarás
-                            con nosotros para
-                            darle soporte y
-                            seguimiento a tu
-                            instalación. Nuestro objetivo es que
-                            siempre te sientas
-                            cómodo con los
-                            espacios que
-                            creamos para ti.
-                        </p>
-                    </div>
-                </article>
+        <section class="alba__services" id="Portafolio">
+            <div class="services__content alba__services">
+                <div class="texts__services">
+                    <h1 class="first__title">Nuestro <span class="color__dif">Portafolio</span></h1>
+                    <p class="first__subtitle">Servicios</p>
+                    <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="services__img" class="services__img_title">
+                </div>
+                <div class="about__services">
+                    <article class="content__services">
+                        <img src="img/ALBA_WEB_ELEMENTS-15.png" alt="services__img" class="services__img">
+                        <h3 class="services__title">Diseño de proyecto</h3>
+                        <div class="services-paragraph-content">
+                            <p class="services__paragraph">
+                                Despues de análizar tus espacios
+                                desarrollamos una propuesta a la medida.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="content__services">
+                        <img src="img/ALBA_WEB_ELEMENTS-16.png" alt="services__img" class="services__img">
+                        <h3 class="services__title">Productos</h3>
+                        <div class="services-paragraph-content">
+                            <p class="services__paragraph">
+                                Utilizamos productos
+                                de alta calidad y de
+                                acuerdo a tu presupuesto.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="content__services">
+                        <img src="img/ALBA_WEB_ELEMENTS-17.png" alt="services__img" class="services__img">
+                        <h3 class="services__title">Implementación</h3>
+                        <div class="services-paragraph-content">
+                            <p class="services__paragraph">
+                                Llevamos a cabo
+                                la instalación de
+                                la solución, con
+                                una visión a largo
+                                plazo.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="content__services">
+                        <img src="img/ALBA_WEB_ELEMENTS-18.png" alt="services__img" class="services__img">
+                        <h3 class="services__title">Soporte</h3>
+                        <div class="services-paragraph-content">
+                            <p class="services__paragraph">
+                                Siempre contarás
+                                con nosotros para
+                                darle soporte y
+                                seguimiento a tu
+                                instalación. Nuestro objetivo es que
+                                siempre te sientas
+                                cómodo con los
+                                espacios que
+                                creamos para ti.
+                            </p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <div class="text__gallery">
-            <h1 class=first__title>Productos & <span class=color__dif>Proyectos</span></h1>
-            <p class=first__subtitle>Galería</p>
-            <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="gallery__elemtent" class="gallery__img_title">
-        </div>
-        <div class="container__slider">
-            <div class="container__img">
-                <div class="cards">
-                    <div class="slide img-a">
-                        <img src="img/ALBA_WEB_ELEMENTS-23.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-24.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-25.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-26.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-27.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-28.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-29.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/ALBA_WEB_ELEMENTS-30.png">
+        <section class="container__slider">
+            <div class="text__gallery" id="proyectos">
+                <h1 class=first__title>Productos & <span class=color__dif>Proyectos</span></h1>
+                <p class=first__subtitle>Galería</p>
+                <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="gallery__elemtent" class="gallery__img_title">
+                <div class="container__img">
+                    <div class="cards">
+                        <div class="slide img-a">
+                            <img src="img/ALBA_WEB_ELEMENTS-23.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-24.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-25.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-26.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-27.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-28.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-29.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/ALBA_WEB_ELEMENTS-30.png">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <div class="carousel">
-            <h2>Carousel</h2>
             <div class="carrusel-list" id="carrusel-list">
                 <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
                     onclick="app.processingButton(event)">
@@ -398,7 +400,8 @@
                 </button>
             </div>
         </div>
-        <section class="alba__contact">
+        <section class="contact__container" id="Contacto">
+            <div class="alba__contact">
             <div class="contact__texts">
                 <h1 class="title-contact">Contáctanos</h1>
                 <img src="img/ALBA_WEB_ELEMENTS-07.png" alt="" class="contact__element">
@@ -423,6 +426,7 @@
                     <input type="submit" value="Enviar" class="button">
                 </form>
             </div>
+        </div>
         </section>
     </main>
     <footer class="alba__footer">
@@ -459,7 +463,7 @@
 
                             </div>
                         </div>
-                        
+
                         <div class="chevron">
                             <span id="next" class="material-icons">
                                 &#xe5cc;
