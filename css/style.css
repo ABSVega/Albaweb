@@ -106,7 +106,7 @@ header {
         top: 100%;
         right: -100%;
         width: 270px;
-        height: 45vh;
+        height: 50vh;
         background: #282e2f;
         display: flex;
         flex-direction: column;
@@ -743,24 +743,22 @@ footer {
 }
 
 .media {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 .p__logo {
     padding-top: 3em;
     padding-bottom: 3em;
-    width: 30%;
+    width: 70%;
 }
 
-.media ul {
-    display: inline-flex;
+.logos__media{
+    display: flex;
     padding-left: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+    position: static;
+    justify-content: space-around;
 }
 
 .copyright {
@@ -775,7 +773,6 @@ footer {
 
 .s__logo {
     width: 35px;
-    margin-left: 30px;
 }
 
 .insta {
@@ -967,15 +964,6 @@ footer {
         justify-content: center;
     }
 
-    .alba__kits {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-        gap: 5em;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
     .img__kits {
         width: 300px;
     }
@@ -1017,12 +1005,6 @@ footer {
 
     .alba__services {
         height: 100%;
-    }
-
-    .about__services {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-        gap: 2em;
     }
 
     /*Gallery*/
@@ -1075,8 +1057,21 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         width: 100%;
-        align-items: center;
-        justify-content: center;
+        height: 100%;
+    }
+
+    .copy {
+        padding-left: 0px;
+    }
+
+    .terminos {
+        margin: 0 auto;
+    }
+
+    .p__logo {
+        width: 60%;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
 }
 
@@ -1088,5 +1083,23 @@ footer {
 
     #particles-js {
         width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    .alba__kits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 5em;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about__services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 2em;
     }
 }

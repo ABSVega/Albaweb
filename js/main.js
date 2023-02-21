@@ -2,6 +2,16 @@
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.alba_bar');
 
+function cambiarHrefEnlace() {
+    if (window.innerWidth <= 1300) {
+      document.getElementById("cambio").href = "#Galeria";
+    } else {
+      document.getElementById("cambio").href = "#Proyectos";
+    }
+  }
+  
+  window.onresize = cambiarHrefEnlace;
+  
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
