@@ -395,12 +395,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*Alba Partners*/
 
-.alba__partners {
+.media__partners {
     width: 100%;
+    height: 90vh;
 }
 
 .partners__text {
-    padding-top: 5em;
+    padding-top: 7em;
     text-align: center;
     padding-bottom: 10em;
 }
@@ -966,6 +967,15 @@ footer {
         justify-content: center;
     }
 
+    .alba__kits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 5em;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
     .img__kits {
         width: 300px;
     }
@@ -994,6 +1004,11 @@ footer {
         padding-top: 5em;
     }
 
+    .media__partners {
+        width: 100%;
+        height: 100%;
+    }
+
     .slider .slide {
         width: 200px;
     }
@@ -1002,6 +1017,12 @@ footer {
 
     .alba__services {
         height: 100%;
+    }
+
+    .about__services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 2em;
     }
 
     /*Gallery*/
