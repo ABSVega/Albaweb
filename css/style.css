@@ -29,12 +29,13 @@ header {
     margin-right: 3px;
 }
 
-.navbar{
+.alba_bar{
     display: flex;
-
+    padding-left: 0px;
+    margin-bottom: 0px;
 }
 
-.navbar a {
+.alba_bar a {
     color: #282e2f;
     font-size: 1.1rem;
     font-weight: 600;
@@ -43,11 +44,11 @@ header {
     transition: all .50s ease;
 }
 
-.navbar a:hover {
+.alba_bar a:hover {
     color:  #e89347;
 }
 
-.navbar a.active {
+.alba_bar a.active {
     color:  #e89347;
 }
 
@@ -79,7 +80,7 @@ header {
         transition: .2s;
     }
 
-    .navbar a {
+    .alba_bar a {
         padding: 15px 0;
         margin: 0px 20px;
     }
@@ -91,7 +92,7 @@ header {
         color: rgb(123, 120, 120);
     }
 
-    .navbar {
+    .alba_bar {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -105,7 +106,7 @@ header {
         transition: all .50s ease;
     }
 
-    .navbar a {
+    .alba_bar a {
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
@@ -116,16 +117,16 @@ header {
         font-size: medium;
     }
 
-    .navbar a:hover {
+    .alba_bar a:hover {
         color:  #e89347;
         transform: translateY(5px);
     }
 
-    .navbar a.active {
+    .alba_bar a.active {
         color:  #e89347;
     }
 
-    .navbar.open {
+    .alba_bar.open {
         right: 2%;
     }
 }
@@ -541,19 +542,6 @@ body::-webkit-scrollbar-thumb:hover {
     margin: 0px 0px;
 }
 
-@media (max-width:100000px) {
-    .carousel {
-        display: none;
-    }
-}
-
-@media(max-width:1200px) {
-    .carousel {
-        margin: 0 auto;
-        display: block;
-    }
-}
-
 .carrusel-list {
     position: relative;
     display: flex;
@@ -884,6 +872,22 @@ footer {
 .opacity-hover {
     background-color: rgba(2, 2, 2, 0.8);
 }
+
+/*responsive*/
+
+@media (max-width:100000px) {
+    .carousel {
+        display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    .carousel {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 
 @media (max-width:1000px) {
     .alba__footer .footer__grid {
