@@ -400,8 +400,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .partners__text {
+    padding-top: 5em;
     text-align: center;
-    padding-bottom: 90px;
+    padding-bottom: 10em;
 }
 
 
@@ -883,7 +884,7 @@ footer {
 
 /*responsive*/
 
-@media (max-width:100000px) {
+@media (max-width:9999999px) {
     .carousel {
         display: none;
     }
@@ -909,6 +910,16 @@ footer {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(450px, auto));
         gap: 2em;
+    }
+
+    .media__kit {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .media__services {
+        padding-top: 10em;
+        padding-bottom: 10em;
     }
 }
 
