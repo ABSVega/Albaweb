@@ -9,11 +9,6 @@
     text-decoration: none !important;
 }
 
-/*Colores y pading que se utilizan en toda la página*/
-:root {
-    --bg-color: #ffffff;
-}
-
 header {
     position: fixed;
     width: 100%;
@@ -34,8 +29,9 @@ header {
     margin-right: 3px;
 }
 
-.navbar {
+.navbar{
     display: flex;
+
 }
 
 .navbar a {
@@ -733,29 +729,41 @@ footer {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.terminos {
-    margin: 0 auto;
+.terminos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.copy li,
-a {
-    list-style: none;
-    text-align: left;
-    color:  #e89347;
+.copy li a {
     letter-spacing: 3px;
     font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
     padding-top: 10px;
+    text-align: left;
+    color: #e89347;
 }
 
 .media {
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.logos__media li {
-    display: inline-block;
-    padding-top: 50px;
+.p__logo {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 30%;
+}
+
+.media ul  {
+    display: inline-flex;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .copyright {
